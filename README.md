@@ -15,18 +15,19 @@ For other cloning types, visit [this](https://docs.github.com/en/get-started/get
 ## Usage
 
 ```bash
-# prints the value of the environment variable 'HOME'
+# prints the value of the environment variable <VARIABLE_NAME> if found
+python main.py <VARIABLE_NAME>
+
+# It is case insensitive. Each of these prints the value of the environment variable 'HOME'
 python main.py HOME
-
-# these also print the value of the environment variable 'HOME'; it is case insensitive
+python main.py Home
 python main.py home
-python main.py hoME
 
-# for the environment variable 'PATH', it splits the all path names and prints them line by line
+# if the environment variable is 'PATH', all the path names are printed line by line
 python main.py PATH
 
-# if the variable name is not found, prints "There is no such environment variable: VARIABLE_NAME"
-python main.py VARIABLE_NAME
+# if the variable name is not found, prints "There is no such environment variable: <NOT_FOUND_VARIABLE_NAME>"
+python main.py <NOT_FOUND_VARIABLE_NAME>
 ```
 
 ## Contributing
