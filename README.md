@@ -33,3 +33,7 @@ python main.py <NOT_FOUND_VARIABLE_NAME>
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## Important Note
+
+The application is modified for some testing purposes and the README file is not representing the current version. Be aware of it!
